@@ -1,9 +1,12 @@
 avr-template
 ============
 
-A minimal template for AVR microcontroller projects. Clone this
-repository, then change the Makefile to reflect your microcontroller,
-programmer etc.
+A minimal template for AVR microcontroller projects. Usage:
+
+1. Fork this repository, then rename it to reflect your project
+(Admin->Rename on Github)
+2. Clone your repository
+3. Change the Makefile to reflect your microcontroller, programmer etc.
 
 ### License
 
