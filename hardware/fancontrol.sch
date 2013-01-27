@@ -10899,7 +10899,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="Q1" library="transistor-power" deviceset="IRLZ44Z" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="T1" library="transistor" deviceset="BC547" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="10R"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="470u"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
