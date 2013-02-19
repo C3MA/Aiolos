@@ -68,9 +68,13 @@ printf("foobar\n");
     for(;;)
     {
 	float temp = temperature_get();
-	if(temp > 25.0)
+	if (temp >= 30)
         {
              OCR0B = 0;
+        } 
+	else if(temp >= 28.0)
+        {
+             OCR0B = 120;
 	}
 	else
 	{
