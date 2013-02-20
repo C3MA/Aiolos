@@ -1201,6 +1201,27 @@ type 0207, grid 7.5 mm</description>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
+<package name="E2,5-5">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 5 mm</description>
+<wire x1="-1.651" y1="1.27" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.143" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.397" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.413" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 <package name="E5-10,5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 10.5 mm</description>
@@ -1221,6 +1242,30 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <text x="4.699" y="2.7432" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.1242" y="-3.2258" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
+</package>
+<package name="C025-025X050">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.5 mm, outline 2.5 x 5 mm</description>
+<wire x1="-2.159" y1="1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-1.27" x2="-2.159" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.27" x2="2.413" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="1.016" x2="-2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="-1.27" x2="2.413" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.286" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1734,6 +1779,8 @@ design rules under a new name.</description>
 <element name="R4" library="rcl" package="0207/7" value="4k7" x="35.55" y="16.06" rot="R270"/>
 <element name="JP2" library="pinhead" package="1X03" value="" x="15" y="5"/>
 <element name="R5" library="rcl" package="0207/7" value="10k" x="11.16" y="27.77" rot="R90"/>
+<element name="C2" library="rcl" package="E2,5-5" value="10u" x="21.8" y="8.8" rot="R270"/>
+<element name="C3" library="rcl" package="C025-025X050" value="100n" x="26.8" y="8.8" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1760,6 +1807,8 @@ design rules under a new name.</description>
 <vertex x="0" y="50"/>
 </polygon>
 <contactref element="JP2" pad="3"/>
+<contactref element="C2" pad="-"/>
+<contactref element="C3" pad="2"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
@@ -1788,6 +1837,11 @@ design rules under a new name.</description>
 <wire x1="6.7" y1="24.4" x2="6.7" y2="26.3" width="0.4064" layer="16"/>
 <wire x1="6.7" y1="26.3" x2="8.4" y2="28" width="0.4064" layer="16"/>
 <wire x1="8.4" y1="28" x2="12.5" y2="28" width="0.4064" layer="16"/>
+<contactref element="C2" pad="+"/>
+<contactref element="C3" pad="1"/>
+<wire x1="28.5" y1="22.09" x2="21.8" y2="15.39" width="0.4064" layer="16"/>
+<wire x1="21.8" y1="15.39" x2="21.8" y2="10.07" width="0.4064" layer="16"/>
+<wire x1="21.8" y1="10.07" x2="26.8" y2="10.07" width="0.4064" layer="16"/>
 </signal>
 <signal name="FAN+">
 <contactref element="Q1" pad="S"/>
