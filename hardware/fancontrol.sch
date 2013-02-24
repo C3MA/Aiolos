@@ -13180,7 +13180,7 @@ general purpose rectifier, 1 A</description>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="220"/>
 <part name="ARDUINO1" library="arduino" deviceset="ARDUINO" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
